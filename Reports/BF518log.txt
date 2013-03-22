@@ -1,0 +1,113 @@
+(ptpd debug) allocated 1088 bytes for protocol engine data
+(ptpd debug) allocated 600 bytes for foreign master data
+(ptpd debug) event POWERUP
+(ptpd debug) state PTP_INITIALIZING
+(ptpd debug) manufacturerIdentity: ADSP BF518
+(ptpd debug) netInit
+(ptpd debug) Unicast address: 169.254.0.2
+(ptpd debug) initData
+(ptpd debug) initTimer
+(ptpd debug) initClock
+(ptpd debug) sync message interval: 2
+(ptpd debug) clock identifier: DFLT
+(ptpd debug) 256*log2(clock variance): -4000
+(ptpd debug) clock stratum: 4
+(ptpd debug) clock preferred?: no
+(ptpd debug) bound interface name: National DP83848
+(ptpd debug) communication technology: 1
+(ptpd debug) uuid: 00:e6:56:78:90:00
+(ptpd debug) PTP subdomain name: _DFLT
+(ptpd debug) subdomain address: 224.0.1.129
+(ptpd debug) event port address: 3f 1
+(ptpd debug) general port address: 40 1
+(ptpd debug) state PTP_LISTENING
+(ptpd debug) updateForeign: new record (0,1) 1 1 70:f1:a1:20:b3:4c
+(ptpd debug) state PTP_MASTER
+(ptpd debug) fromInternalTime:          4s   621956360ns ->          4s   621956360ns
+(ptpd debug) fromInternalTime:          4s   621956360ns ->          4s   621956360ns
+(ptpd debug) fromInternalTime:          4s   621956360ns ->          4s   621956360ns
+(ptpd debug) fromInternalTime:          7s   645079440ns ->          7s   645079440ns
+(ptpd debug) fromInternalTime:          7s   645079440ns ->          7s   645079440ns
+(ptpd debug) fromInternalTime:          7s   645079440ns ->          7s   645079440ns
+(ptpd debug) fromInternalTime:         10s   667979660ns ->         10s   667979660ns
+(ptpd debug) fromInternalTime:         10s   667979660ns ->         10s   667979660ns
+(ptpd debug) fromInternalTime:         10s   667979660ns ->         10s   667979660ns
+(ptpd debug) fromInternalTime:         13s   690979520ns ->         13s   690979520ns
+(ptpd debug) fromInternalTime:         13s   690979520ns ->         13s   690979520ns
+(ptpd debug) fromInternalTime:         13s   690979520ns ->         13s   690979520ns
+(ptpd debug) fromInternalTime:         16s   713879520ns ->         16s   713879520ns
+(ptpd debug) fromInternalTime:         16s   713879520ns ->         16s   713879520ns
+(ptpd debug) fromInternalTime:         16s   713879520ns ->         16s   713879520ns
+(ptpd debug) fromInternalTime:         19s   736779700ns ->         19s   736779700ns
+(ptpd debug) fromInternalTime:         19s   736779700ns ->         19s   736779700ns
+(ptpd debug) fromInternalTime:         19s   736779700ns ->         19s   736779700ns
+(ptpd debug) fromInternalTime:         19s   745351745ns ->         19s   745351745ns
+(ptpd debug) fromInternalTime:         19s   745351745ns ->         19s   745351745ns
+(ptpd debug) fromInternalTime:         22s   775179680ns ->         22s   775179680ns
+(ptpd debug) fromInternalTime:         22s   775179680ns ->         22s   775179680ns
+(ptpd debug) fromInternalTime:         22s   775179680ns ->         22s   775179680ns
+(ptpd debug) fromInternalTime:         25s   798179580ns ->         25s   798179580ns
+(ptpd debug) fromInternalTime:         25s   798179580ns ->         25s   798179580ns
+(ptpd debug) fromInternalTime:         25s   798179580ns ->         25s   798179580ns
+(ptpd debug) fromInternalTime:         28s   821079760ns ->         28s   821079760ns
+(ptpd debug) fromInternalTime:         28s   821079760ns ->         28s   821079760ns
+(ptpd debug) fromInternalTime:         28s   821079760ns ->         28s   821079760ns
+(ptpd debug) fromInternalTime:         31s   843979560ns ->         31s   843979560ns
+(ptpd debug) fromInternalTime:         31s   843979560ns ->         31s   843979560ns
+(ptpd debug) fromInternalTime:         31s   843979560ns ->         31s   843979560ns
+(ptpd debug) fromInternalTime:         34s   866979660ns ->         34s   866979660ns
+(ptpd debug) fromInternalTime:         34s   866979660ns ->         34s   866979660ns
+(ptpd debug) fromInternalTime:         34s   866979660ns ->         34s   866979660ns
+(ptpd debug) fromInternalTime:         37s   889879640ns ->         37s   889879640ns
+(ptpd debug) fromInternalTime:         37s   889879640ns ->         37s   889879640ns
+(ptpd debug) fromInternalTime:         37s   889879640ns ->         37s   889879640ns
+(ptpd debug) fromInternalTime:         40s   912779440ns ->         40s   912779440ns
+(ptpd debug) fromInternalTime:         40s   912779440ns ->         40s   912779440ns
+(ptpd debug) fromInternalTime:         40s   912779440ns ->         40s   912779440ns
+(ptpd debug) fromInternalTime:         43s   935779640ns ->         43s   935779640ns
+(ptpd debug) fromInternalTime:         43s   935779640ns ->         43s   935779640ns
+(ptpd debug) fromInternalTime:         43s   935779640ns ->         43s   935779640ns
+(ptpd debug) fromInternalTime:         46s   958679620ns ->         46s   958679620ns
+(ptpd debug) fromInternalTime:         46s   958679620ns ->         46s   958679620ns
+(ptpd debug) fromInternalTime:         46s   958679620ns ->         46s   958679620ns
+(ptpd debug) fromInternalTime:         49s   981579680ns ->         49s   981579680ns
+(ptpd debug) fromInternalTime:         49s   981579680ns ->         49s   981579680ns
+(ptpd debug) fromInternalTime:         49s   981579680ns ->         49s   981579680ns
+(ptpd debug) fromInternalTime:         53s     4579520ns ->         53s     4579520ns
+(ptpd debug) fromInternalTime:         53s     4579520ns ->         53s     4579520ns
+(ptpd debug) fromInternalTime:         53s     4579520ns ->         53s     4579520ns
+(ptpd debug) fromInternalTime:         56s    27479680ns ->         56s    27479680ns
+(ptpd debug) fromInternalTime:         56s    27479680ns ->         56s    27479680ns
+(ptpd debug) fromInternalTime:         56s    27479680ns ->         56s    27479680ns
+(ptpd debug) fromInternalTime:         59s    50379700ns ->         59s    50379700ns
+(ptpd debug) fromInternalTime:         59s    50379700ns ->         59s    50379700ns
+(ptpd debug) fromInternalTime:         59s    50379700ns ->         59s    50379700ns
+(ptpd debug) fromInternalTime:         62s    73279520ns ->         62s    73279520ns
+(ptpd debug) fromInternalTime:         62s    73279520ns ->         62s    73279520ns
+(ptpd debug) fromInternalTime:         62s    73279520ns ->         62s    73279520ns
+(ptpd debug) fromInternalTime:         65s    96279640ns ->         65s    96279640ns
+(ptpd debug) fromInternalTime:         65s    96279640ns ->         65s    96279640ns
+(ptpd debug) fromInternalTime:         65s    96279640ns ->         65s    96279640ns
+(ptpd debug) fromInternalTime:         68s   119179700ns ->         68s   119179700ns
+(ptpd debug) fromInternalTime:         68s   119179700ns ->         68s   119179700ns
+(ptpd debug) fromInternalTime:         68s   119179700ns ->         68s   119179700ns
+(ptpd debug) fromInternalTime:         71s   142079500ns ->         71s   142079500ns
+(ptpd debug) fromInternalTime:         71s   142079500ns ->         71s   142079500ns
+(ptpd debug) fromInternalTime:         71s   142079500ns ->         71s   142079500ns
+(ptpd debug) fromInternalTime:         71s   150615745ns ->         71s   150615745ns
+(ptpd debug) fromInternalTime:         71s   150615745ns ->         71s   150615745ns
+(ptpd debug) fromInternalTime:         74s   180579820ns ->         74s   180579820ns
+(ptpd debug) fromInternalTime:         74s   180579820ns ->         74s   180579820ns
+(ptpd debug) fromInternalTime:         74s   180579820ns ->         74s   180579820ns
+(ptpd debug) fromInternalTime:         77s   203479380ns ->         77s   203479380ns
+(ptpd debug) fromInternalTime:         77s   203479380ns ->         77s   203479380ns
+(ptpd debug) fromInternalTime:         77s   203479380ns ->         77s   203479380ns
+(ptpd debug) fromInternalTime:         80s   226379660ns ->         80s   226379660ns
+(ptpd debug) fromInternalTime:         80s   226379660ns ->         80s   226379660ns
+(ptpd debug) fromInternalTime:         80s   226379660ns ->         80s   226379660ns
+(ptpd debug) fromInternalTime:         83s   249379500ns ->         83s   249379500ns
+(ptpd debug) fromInternalTime:         83s   249379500ns ->         83s   249379500ns
+(ptpd debug) fromInternalTime:         83s   249379500ns ->         83s   249379500ns
+(ptpd debug) fromInternalTime:         86s   272279400ns ->         86s   272279400ns
+(ptpd debug) fromInternalTime:         86s   272279400ns ->         86s   272279400ns
+(ptpd debug) fromInternalTime:         86s   272279400ns ->         86s   272279400ns

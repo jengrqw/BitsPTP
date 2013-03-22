@@ -1,0 +1,106 @@
+/*! \mainpage notitle 
+ 
+ \section intro_sec Introduction 
+  Present day automobiles contain a very high quality of multimedia communications. Most OEMs currently use Media Oriented System Transport (MOST) to allow the multimedia to stream from the head unit to the amplifier. Ethernet AVB is an open alternative to MOST that allows for a cheaper and a globally standardized networking option. This consist of various standards that modify the Ethernet (IEEE 802.1) such as: Timing and Synchronization (gPTP), Stream Reservation Protocol (SRP) and Forwarding and Queuing. In this work, we will design and implement a working Timing and Synchronization protocol (IEEE 802.1AS) that will allow the master and the slave to synchronize and syntonize their clocks. \n \n
+  
+ \subsection purpose  Purpose
+Understand the Ethernet AVB standard.
+To prove clock synchronization across two nodes running gPTP (master and slave).
+\n \n
+ 
+ \subsection scope  Scope
+Understand the Ethernet AVB specification [1][2].
+Implement the gPTP protocol that confirms to the specification [3].
+Configure two nodes running gPTP as master and slave. Use the gPTP protocol to synchronize the two clocks and prove gPTP.
+Develop the software in accordance to the AutoSPICE software development quality model.
+ \n \n
+ 
+  
+ \section contents Contents
+  
+  \ref Revision_History \n \n
+  \ref Software_Architecture \n \n
+ 
+ */
+ 
+/*! \page Revision_History Revision History
+
+ \verbatim
+   ===============================================================================================
+    Revision    |       Author          |      Date         |   Remarks     
+   ===============================================================================================
+                |                       |                   | 
+   _______________________________________________________________________________________________
+                |                       |                   |
+   _______________________________________________________________________________________________
+                |                       |                   |
+   _______________________________________________________________________________________________
+ \endverbatim
+ 
+*/ 
+
+ 
+/*! \page Software_Architecture Software Architecture
+ \tableofcontents
+
+ \section Software_arch Software Architecture
+   < Explain the software architecture of the project>
+ 
+   <img src="../Software_arch.jpg" alt="Screenshot">
+
+  \section section_link Section Name
+   < Explain this section>
+ 
+    <img src="../Folder_struct_DEC.jpg" alt="Screenshot"> 
+    
+ \subsection dec  / DEC
+         Only one file, \link dec_lib.h \endlink, exists in this folder. 
+        This file contains all necessary prototypes, macros and defines needed to access the DEC software library.
+   
+        
+ \subsection subsection_link SubSection Name
+        < Explain this subsection>
+ 
+*/
+
+
+ 
+*******************************************************************************************************************************
+PLEASE REMOVE THIS SECTION. THIS SECTION ONLY EXPLAINS SOME OF THE IMPORTANT KEYWORDS THAT MIGHT BE REQUIRED FOR CREATING DOCUMENT IN THE 
+DESIRED FORMAT.
+
+1) \page ---> This will create a new page
+   syntax : \page <page_link_name> <Page Name>
+   
+2) \tableofcontents ---> This will create a table of contents of all sections and subsections in this page
+
+3) \section ----> This will create a new section
+    syntax : \section <Section_link_name> <Section Name>
+    
+4) \subsection ----> This will create a new subsection under the section
+    syntax :  \subsection <SubSection_link_name> <SubSection Name>
+    
+5) \verbatim and \endverbatim ---> Whatever put inside this will appear as is.
+    syntax : \verbatim 
+             <Put anything that must appear as is>
+             \endverbatim
+  
+6) <img ---> This used to insert images to the document.
+   syntax : <img src="../image.extension" alt="Image_Name"> 
+   
+7) \link and \endlink  --> This is used to give links to any sections, files etc
+     syntax : \link object_link_name \endlink
+     
+8) \n  ---> Used to go to next line
+  
+9) <b> and  <\b>  ---> Used to make a text Bold.
+    syntax: <b> Text <\b>
+
+********************************************************************************************************************************
+
+
+ 
+
+
+
+

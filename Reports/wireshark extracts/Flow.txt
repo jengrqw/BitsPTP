@@ -1,0 +1,106 @@
+|Time     | 169.254.0.1                           | 169.254.0.2                           |
+|         |                   | 224.0.1.129       |                   
+|176.280203000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|176.280292000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|179.264794000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|179.264868000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|182.264672000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|182.265231000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|185.233397000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|185.233474000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|188.233392000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|188.233479000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|191.217757000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|191.217892000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|194.217759000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|194.217825000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|197.217760000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|197.217835000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|200.217754000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|200.217875000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|203.217747000|         Sync Message                  |                   |PTPv1: Sync Message
+|         |(319)    ------------------>  (319)    |                   |
+|203.217830000|         Follow_Up Message             |                   |PTPv1: Follow_Up Message
+|         |(320)    ------------------>  (320)    |                   |
+|203.226854000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|206.249727000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|209.272868000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|212.295900000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|215.318745000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|218.341633000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|218.341869000|         Delay_Request Messa           |                   |PTPv1: Delay_Request Message
+|         |(319)    ------------------>  (319)    |                   |
+|218.364748000|                   |         Delay_Response Mess           |PTPv1: Delay_Response Message
+|         |                   |(320)    <------------------  (320)    |
+|221.380023000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|224.403017000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|227.425931000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|230.448814000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|233.471808000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|236.494711000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|239.517599000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|242.540593000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|245.563490000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|248.586378000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|251.609218000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|254.632256000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|257.654925000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|260.678038000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|263.700941000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|266.723866000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|269.746756000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|269.747021000|         Delay_Request Messa           |                   |PTPv1: Delay_Request Message
+|         |(319)    ------------------>  (319)    |                   |
+|269.769970000|                   |         Delay_Response Mess           |PTPv1: Delay_Response Message
+|         |                   |(320)    <------------------  (320)    |
+|272.785334000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|275.808219000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|278.831113000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|281.854108000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |
+|284.877007000|                   |         Sync Message                  |PTPv1: Sync Message
+|         |                   |(319)    <------------------  (319)    |

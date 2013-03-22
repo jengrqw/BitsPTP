@@ -1,0 +1,2856 @@
+allocated 1088 bytes for protocol engine data
+allocated 600 bytes for foreign master data
+event POWERUP
+state PTP_INITIALIZING
+manufacturerIdentity: Analog Devices
+netInit
+initData
+initTimer
+initClock
+adj:               0s
+sync message interval: 2
+clock identifier: DFLT
+256*log2(clock variance): -4000
+clock stratum: 4
+clock preferred?: no
+bound interface name: Dell Wireless 13
+communication technology: 1
+uuid: 70:f1:a1:20:b3:4c
+PTP subdomain name: _DFLT
+subdomain address: 224.0.1.129
+event port address: 3f 1
+general port address: 40 1
+state PTP_LISTENING
+timerStart: set timer 0 to 20
+activity
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 0
+handle: nothing
+timerUpdate: timer 0 expired
+event SYNC_RECEIPT_TIMEOUT_EXPIRES
+state PTP_MASTER
+timerStart: set timer 1 to 2
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946436s    15625000ns -> 1363946436s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 1
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 1
+   time 1363946436s 15625000ns
+fromInternalTime: 1363946436s    16055000ns -> 1363946436s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 1
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 1
+   time 1363946436s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946439s    15625000ns -> 1363946439s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 2
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 2
+   time 1363946439s 15625000ns
+fromInternalTime: 1363946439s    16055000ns -> 1363946439s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 2
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 2
+   time 1363946439s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946442s    15625000ns -> 1363946442s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 3
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 3
+   time 1363946442s 15625000ns
+fromInternalTime: 1363946442s    16055000ns -> 1363946442s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 3
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 3
+   time 1363946442s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946445s    15625000ns -> 1363946445s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 4
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 4
+   time 1363946445s 15625000ns
+fromInternalTime: 1363946445s    16055000ns -> 1363946445s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 4
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 4
+   time 1363946445s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946448s    15625000ns -> 1363946448s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 5
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 5
+   time 1363946448s 15625000ns
+fromInternalTime: 1363946448s    16055000ns -> 1363946448s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 5
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 5
+   time 1363946448s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946451s    15625000ns -> 1363946451s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 6
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 6
+   time 1363946451s 15625000ns
+fromInternalTime: 1363946451s    16055000ns -> 1363946451s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 6
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 6
+   time 1363946451s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946454s    15625000ns -> 1363946454s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 7
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 7
+   time 1363946454s 15625000ns
+fromInternalTime: 1363946454s    16055000ns -> 1363946454s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 7
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 7
+   time 1363946454s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946457s    15625000ns -> 1363946457s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 8
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 8
+   time 1363946457s 15625000ns
+fromInternalTime: 1363946457s    16055000ns -> 1363946457s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 8
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 8
+   time 1363946457s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946460s    15625000ns -> 1363946460s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 9
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 9
+   time 1363946460s 15625000ns
+fromInternalTime: 1363946460s    16055000ns -> 1363946460s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 9
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 9
+   time 1363946460s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 0
+handle: nothing
+no activity
+timerUpdate: timer 1 expired
+event SYNC_INTERVAL_TIMEOUT_EXPIRES
+fromInternalTime: 1363946463s    15625000ns -> 1363946463s    15625000ns
+sent sync message
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 10
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 70:f1:a1:20:b3:4c
+   sequence 10
+   time 1363946463s 15625000ns
+fromInternalTime: 1363946463s    16055000ns -> 1363946463s    16055000ns
+sent followup message
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 10
+msgUnpackHeader: control 2
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 2
+   uuid 70:f1:a1:20:b3:4c
+   sequence 10
+   time 1363946463s 15625000ns
+handleFollowUp: disreguard
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 1
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 1
+   time 1363946463s 15625000ns
+updateForeign
+updateForeign: new record (0,1) 1 1 00:e6:56:78:90:00
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 1
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 4
+msgUnpackSync: originTimestamp.nanoseconds 621956360
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 1
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+timerStart: set timer 0 to 20
+state PTP_PTP_SLAVE
+initClock
+adj:               0s
+Q = 0, R = 5
+timerStart: set timer 0 to 20
+handle: something
+receive event
+activity
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 2
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 2
+   time 1363946466s 46875000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 2
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 7
+msgUnpackSync: originTimestamp.nanoseconds 645079440
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 2
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 2
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 7
+msgUnpackSync: originTimestamp.nanoseconds 645079440
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 2
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 3
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 3
+   time 1363946469s 78125000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 3
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 10
+msgUnpackSync: originTimestamp.nanoseconds 667979660
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 3
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 3
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 10
+msgUnpackSync: originTimestamp.nanoseconds 667979660
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 3
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 4
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 4
+   time 1363946472s 109375000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 4
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 13
+msgUnpackSync: originTimestamp.nanoseconds 690979520
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 4
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 4
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 13
+msgUnpackSync: originTimestamp.nanoseconds 690979520
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 4
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 5
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 5
+   time 1363946475s 125000000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 5
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 16
+msgUnpackSync: originTimestamp.nanoseconds 713879520
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 5
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 5
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 16
+msgUnpackSync: originTimestamp.nanoseconds 713879520
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 5
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 6
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 6
+   time 1363946478s 140625000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 6
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 19
+msgUnpackSync: originTimestamp.nanoseconds 736779700
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 6
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+fromInternalTime: 1363946478s   140625000ns -> 1363946478s   140625000ns
+sent delay request message
+Q = 0, R = 17
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 6
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 19
+msgUnpackSync: originTimestamp.nanoseconds 736779700
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 6
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 11
+msgUnpackHeader: control 1
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 1
+   uuid 70:f1:a1:20:b3:4c
+   sequence 11
+   time 1363946478s 140625000ns
+handleDelayReq: self
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 1
+msgUnpackHeader: control 3
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 3
+   uuid 00:e6:56:78:90:00
+   sequence 1
+   time 1363946478s 171875000ns
+msgUnpackDelayResp: delayReceiptTimestamp.seconds 19
+msgUnpackDelayResp: delayReceiptTimestamp.nanoseconds 745351745
+msgUnpackDelayResp: requestingSourceCommunicationTechnology 1
+msgUnpackDelayResp: requestingSourceUuid 70:f1:a1:20:b3:4c
+msgUnpackDelayResp: requestingSourcePortId 1
+msgUnpackDelayResp: requestingSourceSequenceId 11
+toInternalTime:         19s   745351745ns <-         19s   745351745ns
+updateDelay
+activity
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 7
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 7
+   time 1363946481s 187500000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 7
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 22
+msgUnpackSync: originTimestamp.nanoseconds 775179680
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 7
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 7
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 22
+msgUnpackSync: originTimestamp.nanoseconds 775179680
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 7
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 8
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 8
+   time 1363946484s 203125000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 8
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 25
+msgUnpackSync: originTimestamp.nanoseconds 798179580
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 8
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 8
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 25
+msgUnpackSync: originTimestamp.nanoseconds 798179580
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 8
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 9
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 9
+   time 1363946487s 234375000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 9
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 28
+msgUnpackSync: originTimestamp.nanoseconds 821079760
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 9
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 9
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 28
+msgUnpackSync: originTimestamp.nanoseconds 821079760
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 9
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 10
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 10
+   time 1363946490s 265625000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 10
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 31
+msgUnpackSync: originTimestamp.nanoseconds 843979560
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 10
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 10
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 31
+msgUnpackSync: originTimestamp.nanoseconds 843979560
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 10
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 11
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 11
+   time 1363946493s 312500000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 11
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 34
+msgUnpackSync: originTimestamp.nanoseconds 866979660
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 11
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 11
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 34
+msgUnpackSync: originTimestamp.nanoseconds 866979660
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 11
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 12
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 12
+   time 1363946496s 343750000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 12
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 37
+msgUnpackSync: originTimestamp.nanoseconds 889879640
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 12
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 12
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 37
+msgUnpackSync: originTimestamp.nanoseconds 889879640
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 12
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 13
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 13
+   time 1363946499s 390625000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 13
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 40
+msgUnpackSync: originTimestamp.nanoseconds 912779440
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 13
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 13
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 40
+msgUnpackSync: originTimestamp.nanoseconds 912779440
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 13
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 14
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 14
+   time 1363946502s 421875000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 14
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 43
+msgUnpackSync: originTimestamp.nanoseconds 935779640
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 14
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 14
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 43
+msgUnpackSync: originTimestamp.nanoseconds 935779640
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 14
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 15
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 15
+   time 1363946505s 453125000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 15
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 46
+msgUnpackSync: originTimestamp.nanoseconds 958679620
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 15
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 15
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 46
+msgUnpackSync: originTimestamp.nanoseconds 958679620
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 15
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 16
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 16
+   time 1363946508s 484375000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 16
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 49
+msgUnpackSync: originTimestamp.nanoseconds 981579680
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 16
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 16
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 49
+msgUnpackSync: originTimestamp.nanoseconds 981579680
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 16
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 17
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 17
+   time 1363946511s 515625000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 17
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 53
+msgUnpackSync: originTimestamp.nanoseconds 4579520
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 17
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 17
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 53
+msgUnpackSync: originTimestamp.nanoseconds 4579520
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 17
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 18
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 18
+   time 1363946514s 546875000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 18
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 56
+msgUnpackSync: originTimestamp.nanoseconds 27479680
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 18
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 18
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 56
+msgUnpackSync: originTimestamp.nanoseconds 27479680
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 18
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 19
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 19
+   time 1363946517s 593750000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 19
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 59
+msgUnpackSync: originTimestamp.nanoseconds 50379700
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 19
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 19
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 59
+msgUnpackSync: originTimestamp.nanoseconds 50379700
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 19
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 20
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 20
+   time 1363946520s 625000000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 20
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 62
+msgUnpackSync: originTimestamp.nanoseconds 73279520
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 20
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 20
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 62
+msgUnpackSync: originTimestamp.nanoseconds 73279520
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 20
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 21
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 21
+   time 1363946523s 656250000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 21
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 65
+msgUnpackSync: originTimestamp.nanoseconds 96279640
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 21
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 21
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 65
+msgUnpackSync: originTimestamp.nanoseconds 96279640
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 21
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 22
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 22
+   time 1363946526s 687500000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 22
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 68
+msgUnpackSync: originTimestamp.nanoseconds 119179700
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 22
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 22
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 68
+msgUnpackSync: originTimestamp.nanoseconds 119179700
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 22
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 0
+handle: nothing
+no activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 23
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 0
+   uuid 00:e6:56:78:90:00
+   sequence 23
+   time 1363946529s 718750000ns
+handleSync: looking for uuid 00:e6:56:78:90:00
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 23
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 71
+msgUnpackSync: originTimestamp.nanoseconds 142079500
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 23
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+fromInternalTime: 1363946529s   718750000ns -> 1363946529s   718750000ns
+sent delay request message
+Q = 0, R = 8
+SYNC_RECEIPT_TIMER reset
+timerStart: set timer 0 to 20
+updateForeign
+updateForeign: update record 0
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 00:e6:56:78:90:00
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 23
+msgUnpackHeader: control 0
+msgUnpackHeader: flags 00 08
+msgUnpackSync: originTimestamp.seconds 71
+msgUnpackSync: originTimestamp.nanoseconds 142079500
+msgUnpackSync: epochNumber 0
+msgUnpackSync: currentUTCOffset 0
+msgUnpackSync: grandmasterCommunicationTechnology 1
+msgUnpackSync: grandmasterClockUuid 00:e6:56:78:90:00
+msgUnpackSync: grandmasterPortId 0
+msgUnpackSync: grandmasterSequenceId 23
+msgUnpackSync: grandmasterClockStratum 4
+msgUnpackSync: grandmasterClockIdentifier DFLT
+msgUnpackSync: grandmasterClockVariance -4000
+msgUnpackSync: grandmasterPreferred 0
+msgUnpackSync: grandmasterIsBoundaryClock 0
+msgUnpackSync: syncInterval 1
+msgUnpackSync: localClockVariance -4000
+msgUnpackSync: localStepsRemoved 0
+msgUnpackSync: localClockStratum 4
+msgUnpackSync: localClockIdentifer DFLT
+msgUnpackSync: parentCommunicationTechnology 1
+msgUnpackSync: parentUuid 00:e6:56:78:90:00
+msgUnpackSync: parentPortField 0
+msgUnpackSync: estimatedMasterVariance 0
+msgUnpackSync: estimatedMasterDrift 0
+msgUnpackSync: utcReasonable 0
+activity
+bmc: best record 0
+bmcDataSetComparison: start
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 1
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: sourceUuid 70:f1:a1:20:b3:4c
+msgUnpackHeader: sourcePortId 1
+msgUnpackHeader: sequenceId 12
+msgUnpackHeader: control 1
+msgUnpackHeader: flags 00 08
+event Receipt of Message
+   type 1
+   uuid 70:f1:a1:20:b3:4c
+   sequence 12
+   time 1363946529s 718750000ns
+handleDelayReq: self
+activity
+netSelect returns 1
+handle: something
+receive event
+msgUnpackHeader: versionPTP 1
+msgUnpackHeader: versionNetwork 1
+msgUnpackHeader: subdomain _DFLT
+msgUnpackHeader: messageType 2
+msgUnpackHeader: sourceCommunicationTechnology 1
+msgUnpackHeader: source

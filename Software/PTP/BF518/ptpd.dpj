@@ -11,16 +11,16 @@
 		<configuration name="Debug">
 			<intermediate-dir>.\Debug</intermediate-dir>
 			<output-dir>.\Debug</output-dir>
-			<changed-property-page-flags>4</changed-property-page-flags>
+			<changed-property-page-flags>0</changed-property-page-flags>
 			<tools>
 				<tool type="Compiler">
-					<option><![CDATA[|-Version>5.0|-O>0|-O1>0|-Ov>100|-ipa>0|-g>1|-no-annotate>0|-save-temps -path-output>0|-ED>0|-no-auto-attrs>0|-no-builtin>0|-no-extra-keywords>0|-enum-is-int>0|-no-fp-associative>0|-structs-do-not-overlap>1|-implicit-pointers>0|-eh >0|-rtti>1|-check-init-order>0|-ignore-std>1|-const-read-write>0|-const-strings>0|-no-multiline>1|-misra>0|-misra-strict>0|-misra-no-cross-module>0|-misra-no-runtime>0|-misra-testing>0|-misra-suppress-advisory>0|-D>PTPD_DBG|-I>./src|-no-std-inc>0|-double-size-32>1|-double-size-any>0|-Ofp>0|-full-io>0|-guard-vol-loads>0|-decls-strong>1|-no-saturation>0|-cplbs>0|-sdram>0|-multicore>0|-pguide>0|NOSWITCH>0|-flags-compiler --diag_warning,implicit_func_decl>0|-warn-protos>0|-flags-compiler --diag_warning,call_not_inlined>0|-Wremarks>0|-w>0|AdditionalOptions>-threads -Wsuppress 1355,0188]]></option>
+					<option><![CDATA[|-Version>5.0|-O>0|-O1>0|-Ov>100|-ipa>0|-g>1|-no-annotate>0|-save-temps -path-output>0|-ED>0|-no-auto-attrs>0|-no-builtin>0|-no-extra-keywords>0|-enum-is-int>0|-no-fp-associative>0|-structs-do-not-overlap>1|-implicit-pointers>0|-eh >0|-rtti>1|-check-init-order>0|-ignore-std>1|-const-read-write>0|-const-strings>0|-no-multiline>1|-misra>0|-misra-strict>0|-misra-no-cross-module>0|-misra-no-runtime>0|-misra-testing>0|-misra-suppress-advisory>0|-D>PTPD_DBG|-I>./src|-no-std-inc>0|-double-size-32>1|-double-size-any>0|-Ofp>0|-guard-vol-loads>0|-decls-strong>1|-no-saturation>0|-cplbs>0|-sdram>0|-multicore>0|-stack-detect>0|-pguide>0|NOSWITCH>0|-flags-compiler --diag_warning,implicit_func_decl>0|-warn-protos>0|-flags-compiler --diag_warning,call_not_inlined>0|-Wremarks>0|-w>0|AdditionalOptions>-threads -Wsuppress 1355,0188 -include "D:\Work\BITS\Project\BitsPTP\trunk\Software\PTP\BF518\BF518.h"]]></option>
 				</tool>
 				<tool type="Assembler">
 					<option><![CDATA[|-Version>4.5|-v>0|-g>1|-l>0|-save-temps>0|-sp>0|AdditionalOptions>-D_ADI_THREADS -D__USE_SDRAM3__]]></option>
 				</tool>
 				<tool type="Linker">
-					<option><![CDATA[|-Version>5.0|-flags-link -t>0|-flags-link -S>0|-flags-link -s>0|-mem>0|-flags-link -warnonce>0|-map>0|-flags-link -xref>0|-flags-link -save-temps>0|-flags-link -ip>0|-MD>USE_SDRAM,USER_CRT="ptpd_basiccrt.doj",USE_CACHE,USE_DATA_B_CACHE,USE_FILEIO,__cplusplus|-flags-link -e>0|-flags-link -ev>0|-add-debug-libpaths>1|-flags-link -MD__ADI_LIBEH__>0|-multicore>0|NOSWITCH>1|AdditionalOptions>libdp83848bf518.dlb libKervdkbf518.dlb liblwIPbf518.dlb libTcpipbf518.dlb]]></option>
+					<option><![CDATA[|-Version>5.0|-flags-link -t>0|-flags-link -S>0|-flags-link -s>0|-mem>0|-flags-link -warnonce>0|-map>0|-flags-link -xref>0|-flags-link -save-temps>0|-flags-link -ip>0|-MD>USE_SDRAM,USER_CRT="ptpd_basiccrt.doj",USE_CACHE,USE_DATA_B_CACHE,USE_FILEIO,__cplusplus|-flags-link -e>0|-flags-link -ev>0|-add-debug-libpaths>1|-flags-link -MD__ADI_LIBEH__>0|-multicore>0|NOSWITCH>1|AdditionalOptions>libks8893mbf518.dlb libKervdkbf518.dlb liblwIPbf518.dlb libTcpipbf518.dlb]]></option>
 				</tool>
 				<tool type="Archiver">
 					<option><![CDATA[]]></option>
@@ -36,10 +36,10 @@
 		<configuration name="Release">
 			<intermediate-dir>.\Release</intermediate-dir>
 			<output-dir>.\Release</output-dir>
-			<changed-property-page-flags>4</changed-property-page-flags>
+			<changed-property-page-flags>5</changed-property-page-flags>
 			<tools>
 				<tool type="Compiler">
-					<option><![CDATA[|-Version>5.0|-O>1|-O1>1|-Ov>100|-ipa>0|-g>0|-no-annotate>0|-save-temps -path-output>0|-ED>0|-no-auto-attrs>0|-no-builtin>0|-no-extra-keywords>0|-enum-is-int>0|-no-fp-associative>0|-structs-do-not-overlap>1|-implicit-pointers>0|-eh >0|-rtti>1|-check-init-order>0|-ignore-std>1|-const-read-write>0|-const-strings>0|-no-multiline>1|-misra>0|-misra-strict>0|-misra-no-cross-module>0|-misra-no-runtime>1|-misra-testing>1|-misra-suppress-advisory>0|-D>PTPD_DBG|-I>./src|-no-std-inc>0|-double-size-32>1|-double-size-any>0|-Ofp>0|-full-io>0|-guard-vol-loads>0|-decls-strong>1|-no-saturation>0|-cplbs>0|-sdram>0|-multicore>0|-pguide>0|NOSWITCH>0|-flags-compiler --diag_warning,implicit_func_decl>0|-warn-protos>1|-flags-compiler --diag_warning,call_not_inlined>0|-Wremarks>0|-w>0|AdditionalOptions>-threads  -Wsuppress 1355,0188]]></option>
+					<option><![CDATA[|-Version>5.0|-O>1|-O1>1|-Ov>100|-ipa>0|-g>0|-no-annotate>0|-save-temps -path-output>0|-ED>0|-no-auto-attrs>0|-no-builtin>0|-no-extra-keywords>0|-enum-is-int>0|-no-fp-associative>0|-structs-do-not-overlap>1|-implicit-pointers>0|-eh >0|-rtti>1|-check-init-order>0|-ignore-std>1|-const-read-write>0|-const-strings>0|-no-multiline>1|-misra>0|-misra-strict>0|-misra-no-cross-module>0|-misra-no-runtime>1|-misra-testing>1|-misra-suppress-advisory>0|-D>PTPD_DBG|-I>./src|-no-std-inc>0|-double-size-32>1|-double-size-any>0|-Ofp>0|-full-io>0|-guard-vol-loads>0|-decls-strong>1|-no-saturation>0|-cplbs>0|-sdram>0|-multicore>0|-pguide>0|NOSWITCH>0|-flags-compiler --diag_warning,implicit_func_decl>0|-warn-protos>1|-flags-compiler --diag_warning,call_not_inlined>0|-Wremarks>0|-w>0|AdditionalOptions>-threads  -Wsuppress 1355,0188 -include "D:\Work\BITS\Project\BitsPTP\trunk\Software\PTP\BF518\BF518.h"]]></option>
 				</tool>
 				<tool type="Assembler">
 					<option><![CDATA[|-Version>4.5|-v>0|-g>0|-l>0|-save-temps>0|-sp>0|AdditionalOptions>-D_ADI_THREADS -D__USE_SDRAM3__]]></option>
@@ -182,6 +182,8 @@
 		<folder name="Header Files" ext=".h,.hpp,.hxx">
 			<files>
 				<file name=".\adi_ssl_init.h">
+				</file>
+				<file name=".\BF518.h">
 				</file>
 				<file name=".\src\constants.h">
 				</file>
@@ -326,6 +328,34 @@
 					</file-configurations>
 				</file>
 				<file name=".\src\arith.c">
+					<file-configurations>
+						<file-configuration name="Debug">
+							<excluded-flag value="no"/>
+							<build-with-flag value="project"/>
+							<intermediate-dir>.\Debug</intermediate-dir>
+							<output-dir>.\Debug</output-dir>
+						</file-configuration>
+						<file-configuration name="Release">
+							<excluded-flag value="no"/>
+							<build-with-flag value="project"/>
+							<intermediate-dir>.\Release</intermediate-dir>
+							<output-dir>.\Release</output-dir>
+						</file-configuration>
+						<file-configuration name="DebugMicrel">
+							<excluded-flag value="no"/>
+							<build-with-flag value="project"/>
+							<intermediate-dir>.\DebugMicrel</intermediate-dir>
+							<output-dir>.\DebugMicrel</output-dir>
+						</file-configuration>
+						<file-configuration name="ReleaseMicrel">
+							<excluded-flag value="no"/>
+							<build-with-flag value="project"/>
+							<intermediate-dir>.\ReleaseMicrel</intermediate-dir>
+							<output-dir>.\ReleaseMicrel</output-dir>
+						</file-configuration>
+					</file-configurations>
+				</file>
+				<file name=".\BF518.c">
 					<file-configurations>
 						<file-configuration name="Debug">
 							<excluded-flag value="no"/>
@@ -772,6 +802,12 @@
 							<output-dir>.\ReleaseMicrel</output-dir>
 						</file-configuration>
 					</file-configurations>
+				</file>
+			</files>
+		</folder>
+		<folder name="TCP/IP Configuration" ext=".tcp">
+			<files>
+				<file name=".\BF518.tcp">
 				</file>
 			</files>
 		</folder>

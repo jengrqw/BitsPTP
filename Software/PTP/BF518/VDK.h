@@ -9,7 +9,7 @@
 #ifndef VDK_H_    
 #define VDK_H_
 
-#ifdef __ECC__	
+#ifdef __ECC__    
 #pragma no_implicit_inclusion
 
 #ifndef _ADI_THREADS
@@ -116,20 +116,20 @@
  * These are used in calls to VDK::CreateThread().
  */
  
-#ifdef __ECC__	/* for C/C++ access */
+#ifdef __ECC__    /* for C/C++ access */
 enum ThreadType
 {
 kDynamicThreadType = -1,
-	klwip_sysboot_threadtype = 0,
-	kADI_TOOLS_IOEThreadType = 1,
-	kPtpd = 2
+    klwip_sysboot_threadtype = 0,
+    kADI_TOOLS_IOEThreadType = 1,
+    kPtpd = 2
 };
-#else	/* for asm access */
+#else    /* for asm access */
 #define kDynamicThreadType  -1
-#define klwip_sysboot_threadtype 0	/* enum */
-#define kADI_TOOLS_IOEThreadType 1	/* enum */
-#define kPtpd 2	/* enum */
-#endif 	/* __ECC__ */
+#define klwip_sysboot_threadtype 0    /* enum */
+#define kADI_TOOLS_IOEThreadType 1    /* enum */
+#define kPtpd 2    /* enum */
+#endif     /* __ECC__ */
 
 /*************************************************************************
  * ThreadID
@@ -137,18 +137,18 @@ kDynamicThreadType = -1,
  * These are used in calls to VDK::CreateThread().
  */
  
-#ifdef __ECC__	/* for C/C++ access */
+#ifdef __ECC__    /* for C/C++ access */
 enum ThreadID
 {
-	kIdleThread=0,
-	klwipBootThread=1
+    kIdleThread=0,
+    klwipBootThread=1
 
 };
-#else	/* for asm access */
+#else    /* for asm access */
 #define kIdleThread 0
-#define klwipBootThread 1	/* enum */
+#define klwipBootThread 1    /* enum */
 
-#endif 	/* __ECC__ */
+#endif     /* __ECC__ */
 
 
 /*************************************************************************
@@ -158,15 +158,15 @@ enum ThreadID
  *
  */
 
-#ifdef __ECC__	/* for C/C++ access */
+#ifdef __ECC__    /* for C/C++ access */
 enum SemaphoreID 
 {
-	kPeriodic = 0,
-	last_semaphore__3VDK=-1
+    kPeriodic = 0,
+    last_semaphore__3VDK=-1
 };
-#else	/* for asm access */
-#define kPeriodic 0	/* enum */
-#endif 	/* __ECC__ */
+#else    /* for asm access */
+#define kPeriodic 0    /* enum */
+#endif     /* __ECC__ */
 
 
 /*************************************************************************
@@ -196,15 +196,15 @@ enum PoolID
  * EventIDs.
  */
  
-#ifdef __ECC__	/* for C/C++ access */
+#ifdef __ECC__    /* for C/C++ access */
 enum EventID
 {
 
-	last_event__3VDK=-1
+    last_event__3VDK=-1
 };
-#else	/* for asm access */
+#else    /* for asm access */
 
-#endif 	/* __ECC__ */
+#endif     /* __ECC__ */
 
 
 /*************************************************************************
@@ -216,15 +216,15 @@ enum EventID
  * EventBitIDs.
  */
  
-#ifdef __ECC__	/* for C/C++ access */
+#ifdef __ECC__    /* for C/C++ access */
 enum EventBitID
 {
 
-	last_eventbit__3VDK=-1
+    last_eventbit__3VDK=-1
 };
-#else	/* for asm access */
+#else    /* for asm access */
 
-#endif 	/* __ECC__ */
+#endif     /* __ECC__ */
 
 /*************************************************************************
  * DeviceID
@@ -233,15 +233,15 @@ enum EventBitID
  *
  */
  
-#ifdef __ECC__	/* for C/C++ access */
+#ifdef __ECC__    /* for C/C++ access */
 enum IOID
 {
 
-	last_bootdevice__3VDK=-1
+    last_bootdevice__3VDK=-1
 };
-#else	/* for asm access */
+#else    /* for asm access */
 
-#endif 	/* __ECC__ */
+#endif     /* __ECC__ */
 
 
 /*************************************************************************
@@ -251,15 +251,15 @@ enum IOID
  *
  */
  
-#ifdef __ECC__	/* for C/C++ access */
+#ifdef __ECC__    /* for C/C++ access */
 enum IOTemplateID
 {
 
-	last_iotemplate__3VDK=-1
+    last_iotemplate__3VDK=-1
 };
-#else	/* for asm access */
+#else    /* for asm access */
 
-#endif 	/* __ECC__ */
+#endif     /* __ECC__ */
 
 /*************************************************************************
  * DeviceFlagID
@@ -268,15 +268,15 @@ enum IOTemplateID
  *
  */
  
-#ifdef __ECC__	/* for C/C++ access */
+#ifdef __ECC__    /* for C/C++ access */
 enum DeviceFlagID
 {
 
-	last_deviceflag__3VDK=-1
+    last_deviceflag__3VDK=-1
 };
-#else	/* for asm access */
+#else    /* for asm access */
 
-#endif 	/* __ECC__ */
+#endif     /* __ECC__ */
 
 
 /************************************************************************** 
@@ -320,16 +320,16 @@ enum FifoID
 #ifdef VDK_MULTIPLE_HEAPS_
 #ifdef __ECC__  /* for C/C++ access */
 enum HeapID {
-	ksystem_heap = 0
+    ksystem_heap = 0
 };
 #else /* for asm access */
-#define ksystem_heap 0	/* enum */
+#define ksystem_heap 0    /* enum */
 #endif /* __ECC__ */
 #endif
 
 #ifdef __ECC__  /* for C/C++ access */
 enum RoutingNodeID {
-		kNoRoutingNodes
+        kNoRoutingNodes
 
 };
 #else /* for asm access */
@@ -338,7 +338,7 @@ enum RoutingNodeID {
 
 #ifdef __ECC__  /* for C/C++ access */
 enum MarshalledTypeID {
-		kNoMarshalledMessages
+        kNoMarshalledMessages
 
 };
 #else /* for asm access */
